@@ -1,0 +1,155 @@
+
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+
+    .menu_logo{
+        height: 38px;
+        align-items: flex-start;
+    }
+
+    .logo
+{
+    height: 48px;
+    padding: 0px 0px;
+    align-items: center;
+}
+    
+ .search-container button {
+        padding: 6px 10px;
+        margin-right: 16px;
+        /* background: #ddd; */
+        border-radius: 2rem;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .search-icon {
+        position: absolute;
+        left: 0;
+    }
+    
+    
+      h2 {
+        font-size: 20px;
+        font-family: Arial;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      
+      h2:after {
+        display: inline-block;
+        content: "";
+        height: 1px;
+        background: rgb(189, 167, 167);
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        margin-top: -2px;
+        margin-left: 10px;
+      }
+
+.category {
+    text-align: center;
+
+}
+
+.breadcrumb{
+  padding-top: 4%;
+}
+.banner {
+  padding-top: 10%;
+  position: relative;
+  background-color: red;
+  align-items: right;
+
+}
+
+.landing-content{
+  padding-top: 50px;
+  z-index: 1;
+} 
+
+/* Image Container */
+/* .banner{
+  position: relative;
+  background-color: red;
+
+}
+.banner{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+.img2{
+  position: absolute;
+  z-index: 1;    /* Place this image in front of the img1 
+  width: 100%;
+  top: 100px;
+  left: 100px;
+} */
+
+
+
+.categoryimg {
+  /* border: 1px solid #ddd; */
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.onlyimg {
+  /* border: 1px solid #ddd; */
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+  float: left;
+}
+
+
+.fixed-footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fixed-footer {
+  background-color: rgb(198, 207, 208);
+  padding: 8%;
+
+  max-width: fit-content;
+  border-radius: 8px;
+  text-align: start;
+
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+    padding: 0px;
+  
+}
+/*
+      @media screen and (max-width: 480px) {
+        .show-on-desktop {
+          display: none;
+        }
+      }
+      
+      @media screen and (min-width: 181px) {
+        .category {
+            display:inline-block;
+            width:50%;
+        }
+      }
+
+      */
